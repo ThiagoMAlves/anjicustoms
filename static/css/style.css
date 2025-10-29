@@ -6,12 +6,12 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #fff0f5;
+  background-color: #a6cbf8;
   color: #333;
 }
 
 header {
-  background-color: #ffc0cb;
+  background-color: #71b1f5;
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -88,7 +88,7 @@ main {
 }
 
 footer {
-  background-color: #ffc0cb;
+  background-color: #71b1f5;
   color: #fff;
   text-align: center;
   padding: 15px;
