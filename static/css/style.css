@@ -19,6 +19,39 @@ header {
   flex-wrap: wrap;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #71b1f5;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-links {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.nav-links li {
+    font-weight: 500;
+    transition: all 0.3s ease;
+    padding: 6px 10px;
+    border-radius: 6px;
+    width: 100%;
+    text-align: left;
+}
+
+.nav-links li a {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+}
+
 .logo {
   font-size: 28px;
   font-weight: bold;
